@@ -5,7 +5,6 @@ import com.herecoding.marsrover.direction.Direction;
 import com.herecoding.marsrover.rover.Rover;
 
 public abstract class BaseTest {
-
     protected final Plateau plateau = new Plateau(5, 5);
     protected int xCoordinate = 2;
     protected int yCoordinate = 2;

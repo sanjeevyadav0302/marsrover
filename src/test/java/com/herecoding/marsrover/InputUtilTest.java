@@ -1,4 +1,4 @@
-package com.herecoding.marsrover;
+\package com.herecoding.marsrover;
 
 import com.herecoding.marsrover.command.*;
 import com.herecoding.marsrover.direction.NorthDirection;
@@ -45,7 +45,6 @@ public class InputUtilTest extends BaseTest {
     public void whenPositionInputIsParsedRoverIsConstructed() throws Exception {
         String positionInput = "1 2 N";
         Rover roverOutput = InputUtil.parsePositionInput(positionInput, plateau);
-
         assertEquals(1, roverOutput.getCoordinateX());
         assertEquals(2, roverOutput.getCoordinateY());
         assertEquals(NorthDirection.class, roverOutput.getDirection().getClass());

@@ -1,3 +1,5 @@
+
+
 package com.herecoding.marsrover.command;
 
 import com.herecoding.marsrover.BaseTest;
@@ -16,6 +18,7 @@ public class MoveBackCommandTest extends BaseTest {
         rover = new Rover(plateau, xCoordinate, yCoordinate, direction);
         command = new MoveBackCommand();
     }
+    
 
     @Test
     public void whenMoveBackCommandIsExecutedRoverMovesBack() throws Exception {
